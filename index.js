@@ -26,7 +26,7 @@ function lakukanLooping(arrPegawai) {
   let hasilLooping = [];
 
   for (key in dataYangAkanDilooping) {
-    hasilLooping.push([`${dataYangAkanDilooping[key].namaDepan} ${dataYangAkanDilooping[key].namaBelakang}`]);
+    hasilLooping.push(`${dataYangAkanDilooping[key].namaDepan} ${dataYangAkanDilooping[key].namaBelakang}`);
   }
 
   /*
